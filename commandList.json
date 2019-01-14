@@ -1,0 +1,10 @@
+[
+    {
+      "Command": ">help",
+      "Description": "Affiche la liste des commandes."
+    },
+    {
+      "Command": ">ping",
+      "Description": "Permet de savoir si le bot est réactif"
+    }
+  ]
