@@ -1,7 +1,6 @@
-const Command = require('./command');
 const commandList = require('../commandList.json');
 
-module.exports = class List extends Command{
+module.exports = class List{
 
     static action(message){
         var opt = JSON.parse(JSON.stringify(commandList));

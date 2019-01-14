@@ -5,8 +5,8 @@ const bot = new Discord.Client();
 let executor = new Map();
 
 //key = command    value = path to file.js
-executor.set('help', require('./commands/list'));
-executor.set('ping', require('./commands/ping'));
+executor.set('>help', require('./commands/list'));
+executor.set('>ping', require('./commands/ping'));
 
 bot.login(auth.token)
 

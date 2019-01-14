@@ -1,8 +1,6 @@
-const Command = require('./command')
-
-module.exports = class Ping extends Command{
+module.exports = class Ping{
     
     static action(message){
-        message.reply('pong')
+        message.reply('Pong!');
     }
 }
