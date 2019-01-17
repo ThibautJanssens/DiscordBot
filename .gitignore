@@ -1,7 +1,9 @@
-#auth.json
-#auth-example.json
-#package.json
+auth.json
+auth-example.json
+package.json
 /node_modules
 npm-debug.log
 .DS_Store
 /*.env
+.gitlab-ci.yml
+Dockerfile
