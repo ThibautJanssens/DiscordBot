@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ThibautJanssens/DiscordBot#readme",
   
   "engines": {
-    "node": "8.10.0",
+    "node": "11.6.0",
     "npm": "3.5.2"
   },
 
